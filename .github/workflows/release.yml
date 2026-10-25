@@ -20,7 +20,7 @@ jobs:
           repository: johnhenning/outfit
           ref: main
           path: outfit
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v7
         with:
           go-version-file: outfit/go.mod
       - name: Validate release profiles
