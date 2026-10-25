@@ -1,0 +1,42 @@
+name: Release profile bundle
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: profiles
+      - uses: actions/checkout@v4
+        with:
+          repository: johnhenning/outfit
+          ref: main
+          path: outfit
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: outfit/go.mod
+      - name: Validate release profiles
+        working-directory: outfit
+        run: go run ./cmd/outfit catalog --source ../profiles --json
+      - name: Build deterministic bundle
+        working-directory: profiles
+        env:
+          RELEASE_VERSION: ${{ github.ref_name }}
+        run: python3 scripts/bundle.py --version "$RELEASE_VERSION"
+      - uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: profiles/dist/outfit-profiles_*.tar.gz
+      - name: Create draft
+        working-directory: profiles
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ github.ref_name }}
+        run: gh release create "$RELEASE_VERSION" dist/* --verify-tag --draft --generate-notes

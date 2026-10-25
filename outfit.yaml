@@ -1,0 +1,2222 @@
+{
+  "schema": 1,
+  "name": "Outfit community templates",
+  "packages": [
+    {
+      "id": "git",
+      "name": "Git",
+      "category": "cli",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/git",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "git"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "git"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "git"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Git.Git"
+        }
+      }
+    },
+    {
+      "id": "curl",
+      "name": "curl",
+      "category": "cli",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/curl",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "curl"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "curl"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "curl"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "cURL.cURL"
+        }
+      }
+    },
+    {
+      "id": "gh",
+      "name": "GitHub CLI",
+      "category": "cli",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/gh",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "gh"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "gh"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "gh"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "GitHub.cli"
+        }
+      }
+    },
+    {
+      "id": "uv",
+      "name": "uv",
+      "category": "python",
+      "desktop": false,
+      "depends": [],
+      "source": "https://docs.astral.sh/uv/getting-started/installation/",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "uv"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "astral-sh.uv"
+        },
+        "debian": {
+          "provider": "vendor",
+          "package": "uv"
+        },
+        "fedora": {
+          "provider": "vendor",
+          "package": "uv"
+        }
+      }
+    },
+    {
+      "id": "chezmoi",
+      "name": "chezmoi",
+      "category": "cli",
+      "desktop": false,
+      "depends": [],
+      "source": "https://www.chezmoi.io/install/",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "chezmoi"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "twpayne.chezmoi"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install chezmoi using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install chezmoi using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "tmux",
+      "name": "tmux",
+      "category": "terminal-tools",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/tmux",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "tmux"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "tmux"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "tmux"
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install tmux using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "zsh",
+      "name": "Zsh",
+      "category": "shell",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/zsh",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "zsh"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "zsh"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "zsh"
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Zsh using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "oh-my-zsh",
+      "name": "Oh My Zsh",
+      "category": "shell",
+      "desktop": false,
+      "depends": [],
+      "source": "https://ohmyz.sh/",
+      "installs": {
+        "macos": {
+          "provider": "manual",
+          "manual": "Install Oh My Zsh using its official vendor instructions if supported on this platform."
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Oh My Zsh using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Oh My Zsh using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Oh My Zsh using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "powerlevel10k",
+      "name": "Powerlevel10k",
+      "category": "shell",
+      "desktop": false,
+      "depends": [],
+      "source": "https://github.com/romkatv/powerlevel10k",
+      "installs": {
+        "macos": {
+          "provider": "manual",
+          "manual": "Install Powerlevel10k using its official vendor instructions if supported on this platform."
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Powerlevel10k using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Powerlevel10k using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Powerlevel10k using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "ripgrep",
+      "name": "ripgrep",
+      "category": "terminal-tools",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/ripgrep",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "ripgrep"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "ripgrep"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "ripgrep"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "BurntSushi.ripgrep.MSVC"
+        }
+      }
+    },
+    {
+      "id": "fd",
+      "name": "fd",
+      "category": "terminal-tools",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/fd",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "fd"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "fd-find"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "fd-find"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "sharkdp.fd"
+        }
+      }
+    },
+    {
+      "id": "jq",
+      "name": "jq",
+      "category": "terminal-tools",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/jq",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "jq"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "jq"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "jq"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "jqlang.jq"
+        }
+      }
+    },
+    {
+      "id": "bat",
+      "name": "bat",
+      "category": "terminal-tools",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/bat",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "bat"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "bat"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "bat"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "sharkdp.bat"
+        }
+      }
+    },
+    {
+      "id": "fzf",
+      "name": "fzf",
+      "category": "terminal-tools",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/fzf",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "fzf"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "fzf"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "fzf"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "junegunn.fzf"
+        }
+      }
+    },
+    {
+      "id": "neovim",
+      "name": "Neovim",
+      "category": "editors",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/neovim",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "neovim"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "neovim"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "neovim"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Neovim.Neovim"
+        }
+      }
+    },
+    {
+      "id": "rust",
+      "name": "Rust / rustup",
+      "category": "runtimes",
+      "desktop": false,
+      "depends": [],
+      "source": "https://rustup.rs/",
+      "installs": {
+        "windows": {
+          "provider": "winget",
+          "package": "Rustlang.Rustup"
+        },
+        "macos": {
+          "provider": "vendor",
+          "package": "rust"
+        },
+        "debian": {
+          "provider": "vendor",
+          "package": "rust"
+        },
+        "fedora": {
+          "provider": "vendor",
+          "package": "rust"
+        }
+      }
+    },
+    {
+      "id": "node",
+      "name": "Node.js",
+      "category": "runtimes",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/node",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "node"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "nodejs"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "nodejs"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "OpenJS.NodeJS.LTS"
+        }
+      }
+    },
+    {
+      "id": "pnpm",
+      "name": "pnpm",
+      "category": "runtimes",
+      "desktop": false,
+      "depends": [
+        "node"
+      ],
+      "source": "https://formulae.brew.sh/formula/pnpm",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "pnpm"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "pnpm.pnpm"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install pnpm using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install pnpm using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "cmake",
+      "name": "CMake",
+      "category": "build",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/cmake",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "cmake"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "cmake"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "cmake"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Kitware.CMake"
+        }
+      }
+    },
+    {
+      "id": "ninja",
+      "name": "Ninja",
+      "category": "build",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/ninja",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "ninja"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "ninja-build"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "ninja-build"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Ninja-build.Ninja"
+        }
+      }
+    },
+    {
+      "id": "ruff",
+      "name": "Ruff",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/ruff/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "ruff"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "ruff"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "ruff"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "ruff"
+        }
+      }
+    },
+    {
+      "id": "pre-commit",
+      "name": "pre-commit",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/pre-commit/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "pre-commit"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "pre-commit"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "pre-commit"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "pre-commit"
+        }
+      }
+    },
+    {
+      "id": "marimo",
+      "name": "marimo",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/marimo/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "marimo"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "marimo"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "marimo"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "marimo"
+        }
+      }
+    },
+    {
+      "id": "mkdocs",
+      "name": "MkDocs",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/mkdocs/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "mkdocs"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "mkdocs"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "mkdocs"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "mkdocs"
+        }
+      }
+    },
+    {
+      "id": "wandb",
+      "name": "Weights & Biases CLI",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/wandb/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "wandb"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "wandb"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "wandb"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "wandb"
+        }
+      }
+    },
+    {
+      "id": "dstack",
+      "name": "dstack",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/dstack/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "dstack"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "dstack"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "dstack"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "dstack"
+        }
+      }
+    },
+    {
+      "id": "coiled",
+      "name": "Coiled",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/coiled/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "coiled"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "coiled"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "coiled"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "coiled"
+        }
+      }
+    },
+    {
+      "id": "zenml",
+      "name": "ZenML",
+      "category": "python",
+      "desktop": false,
+      "depends": [
+        "uv"
+      ],
+      "source": "https://pypi.org/project/zenml/",
+      "installs": {
+        "macos": {
+          "provider": "uv",
+          "package": "zenml"
+        },
+        "debian": {
+          "provider": "uv",
+          "package": "zenml"
+        },
+        "fedora": {
+          "provider": "uv",
+          "package": "zenml"
+        },
+        "windows": {
+          "provider": "uv",
+          "package": "zenml"
+        }
+      }
+    },
+    {
+      "id": "aws",
+      "name": "AWS CLI",
+      "category": "cloud",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/awscli",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "awscli"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "awscli"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "awscli"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Amazon.AWSCLI"
+        }
+      }
+    },
+    {
+      "id": "azure",
+      "name": "Azure CLI",
+      "category": "cloud",
+      "desktop": false,
+      "depends": [],
+      "source": "https://docs.microsoft.com/cli/azure/overview",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "azure-cli",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Microsoft.AzureCLI"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Azure CLI using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Azure CLI using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "category": "media",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/ffmpeg",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "ffmpeg"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "ffmpeg"
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Gyan.FFmpeg"
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install FFmpeg using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "btop",
+      "name": "btop",
+      "category": "monitoring",
+      "desktop": false,
+      "depends": [],
+      "source": "https://formulae.brew.sh/formula/btop",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "btop"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "btop"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "btop"
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install btop using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "category": "remote",
+      "desktop": false,
+      "depends": [],
+      "source": "https://tailscale.com/",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "tailscale-app",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Tailscale.Tailscale"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Tailscale using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Tailscale using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "op",
+      "name": "1Password CLI",
+      "category": "credentials",
+      "desktop": false,
+      "depends": [],
+      "source": "https://developer.1password.com/docs/cli/get-started/",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "1password-cli",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "AgileBits.1Password.CLI"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install 1Password CLI using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install 1Password CLI using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "onepassword",
+      "name": "1Password",
+      "category": "credentials",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/1password",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "1password",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "AgileBits.1Password"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install 1Password using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install 1Password using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "category": "browsers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/google-chrome",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "google-chrome",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Google.Chrome"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Google Chrome using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Google Chrome using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "category": "browsers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/firefox",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "firefox",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Mozilla.Firefox"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "firefox-esr"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "firefox"
+        }
+      }
+    },
+    {
+      "id": "chromium",
+      "name": "Chromium",
+      "category": "browsers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/chromium",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "chromium",
+          "cask": true
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "chromium"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "chromium"
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Chromium using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "dia",
+      "name": "Dia",
+      "category": "browsers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://www.diabrowser.com/",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "thebrowsercompany-dia",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Dia using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Dia using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Dia using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "category": "browsers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/arc",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "arc",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "TheBrowserCompany.Arc"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Arc using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Arc using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "zen",
+      "name": "Zen Browser",
+      "category": "browsers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/zen",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "zen",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Zen-Team.Zen-Browser"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Zen Browser using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Zen Browser using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "editors",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/cursor",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "cursor",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Anysphere.Cursor"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Cursor using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Cursor using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "category": "editors",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/visual-studio-code",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "visual-studio-code",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Microsoft.VisualStudioCode"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Visual Studio Code using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Visual Studio Code using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains Toolbox",
+      "category": "editors",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/jetbrains-toolbox",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "jetbrains-toolbox",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "JetBrains.Toolbox"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install JetBrains Toolbox using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install JetBrains Toolbox using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "ghostty",
+      "name": "Ghostty",
+      "category": "terminals",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/ghostty",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "ghostty",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Ghostty using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Ghostty using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Ghostty using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "category": "terminals",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/warp",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "warp",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Warp.Warp"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Warp using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Warp using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "iterm2",
+      "name": "iTerm2",
+      "category": "terminals",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/iterm2",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "iterm2",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install iTerm2 using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install iTerm2 using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install iTerm2 using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "ai",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/chatgpt",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "chatgpt",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "OpenAI.ChatGPT"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install ChatGPT using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install ChatGPT using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude Desktop",
+      "category": "ai",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/claude",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "claude",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Anthropic.Claude"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Claude Desktop using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Claude Desktop using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "category": "ai",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/ollama-app",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "ollama-app",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Ollama.Ollama"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Ollama using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Ollama using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "lmstudio",
+      "name": "LM Studio",
+      "category": "ai",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/lm-studio",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "lm-studio",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "ElementLabs.LMStudio"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install LM Studio using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install LM Studio using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "docker",
+      "name": "Docker Desktop",
+      "category": "containers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/docker-desktop",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "docker-desktop",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Docker.DockerDesktop"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Docker Desktop using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Docker Desktop using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "podman",
+      "name": "Podman Desktop",
+      "category": "containers",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/podman-desktop",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "podman-desktop",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "RedHat.Podman-Desktop"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Podman Desktop using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Podman Desktop using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "category": "productivity",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/obsidian",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "obsidian",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Obsidian.Obsidian"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Obsidian using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Obsidian using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "productivity",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/notion",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "notion",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Notion.Notion"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Notion using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Notion using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "communication",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/slack",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "slack",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "SlackTechnologies.Slack"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Slack using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Slack using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "communication",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/discord",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "discord",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Discord.Discord"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Discord using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Discord using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "category": "communication",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/signal",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "signal",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "OpenWhisperSystems.Signal"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Signal using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Signal using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "entertainment",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/spotify",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "spotify",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Spotify.Spotify"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Spotify using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Spotify using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "category": "entertainment",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/steam",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "steam",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Valve.Steam"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Steam using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Steam using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "stremio",
+      "name": "Stremio",
+      "category": "entertainment",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/stremio",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "stremio",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "Stremio.Stremio"
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Stremio using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Stremio using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "creative",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/blender",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "blender",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "BlenderFoundation.Blender"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "blender"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "blender"
+        }
+      }
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "category": "creative",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/godot",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "godot",
+          "cask": true
+        },
+        "windows": {
+          "provider": "winget",
+          "package": "GodotEngine.GodotEngine"
+        },
+        "debian": {
+          "provider": "apt",
+          "package": "godot3"
+        },
+        "fedora": {
+          "provider": "dnf",
+          "package": "godot"
+        }
+      }
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "category": "utilities",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/raycast",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "raycast",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Raycast using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Raycast using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Raycast using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "category": "utilities",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/alfred",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "alfred",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Alfred using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Alfred using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Alfred using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "rectangle",
+      "name": "Rectangle Pro",
+      "category": "utilities",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/rectangle-pro",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "rectangle-pro",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Rectangle Pro using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Rectangle Pro using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Rectangle Pro using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "setapp",
+      "name": "Setapp",
+      "category": "utilities",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/setapp",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "setapp",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install Setapp using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install Setapp using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install Setapp using its official vendor instructions if supported on this platform."
+        }
+      }
+    },
+    {
+      "id": "utm",
+      "name": "UTM",
+      "category": "virtualization",
+      "desktop": true,
+      "depends": [],
+      "source": "https://formulae.brew.sh/cask/utm",
+      "installs": {
+        "macos": {
+          "provider": "brew",
+          "package": "utm",
+          "cask": true
+        },
+        "debian": {
+          "provider": "manual",
+          "manual": "Install UTM using its official vendor instructions if supported on this platform."
+        },
+        "fedora": {
+          "provider": "manual",
+          "manual": "Install UTM using its official vendor instructions if supported on this platform."
+        },
+        "windows": {
+          "provider": "manual",
+          "manual": "Install UTM using its official vendor instructions if supported on this platform."
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cli",
+      "name": "Cli",
+      "packages": [
+        "git",
+        "curl",
+        "gh",
+        "chezmoi"
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "packages": [
+        "uv",
+        "ruff",
+        "pre-commit",
+        "marimo",
+        "mkdocs",
+        "wandb",
+        "dstack",
+        "coiled",
+        "zenml"
+      ]
+    },
+    {
+      "id": "terminal-tools",
+      "name": "Terminal Tools",
+      "packages": [
+        "tmux",
+        "ripgrep",
+        "fd",
+        "jq",
+        "bat",
+        "fzf"
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "packages": [
+        "zsh",
+        "oh-my-zsh",
+        "powerlevel10k"
+      ]
+    },
+    {
+      "id": "editors",
+      "name": "Editors",
+      "packages": [
+        "neovim",
+        "cursor",
+        "vscode",
+        "jetbrains"
+      ]
+    },
+    {
+      "id": "runtimes",
+      "name": "Runtimes",
+      "packages": [
+        "rust",
+        "node",
+        "pnpm"
+      ]
+    },
+    {
+      "id": "build",
+      "name": "Build",
+      "packages": [
+        "cmake",
+        "ninja"
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "packages": [
+        "aws",
+        "azure"
+      ]
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "packages": [
+        "ffmpeg"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring",
+      "packages": [
+        "btop"
+      ]
+    },
+    {
+      "id": "remote",
+      "name": "Remote",
+      "packages": [
+        "tailscale"
+      ]
+    },
+    {
+      "id": "credentials",
+      "name": "Credentials",
+      "packages": [
+        "op",
+        "onepassword"
+      ]
+    },
+    {
+      "id": "browsers",
+      "name": "Browsers",
+      "packages": [
+        "chrome",
+        "firefox",
+        "chromium",
+        "dia",
+        "arc",
+        "zen"
+      ]
+    },
+    {
+      "id": "terminals",
+      "name": "Terminals",
+      "packages": [
+        "ghostty",
+        "warp",
+        "iterm2"
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "Ai",
+      "packages": [
+        "chatgpt",
+        "claude",
+        "ollama",
+        "lmstudio"
+      ]
+    },
+    {
+      "id": "containers",
+      "name": "Containers",
+      "packages": [
+        "docker",
+        "podman"
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "packages": [
+        "obsidian",
+        "notion"
+      ]
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "packages": [
+        "slack",
+        "discord",
+        "signal"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "packages": [
+        "spotify",
+        "steam",
+        "stremio"
+      ]
+    },
+    {
+      "id": "creative",
+      "name": "Creative",
+      "packages": [
+        "blender",
+        "godot"
+      ]
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "packages": [
+        "raycast",
+        "alfred",
+        "rectangle",
+        "setapp"
+      ]
+    },
+    {
+      "id": "virtualization",
+      "name": "Virtualization",
+      "packages": [
+        "utm"
+      ]
+    }
+  ],
+  "roles": {
+    "workstation": {
+      "desktop": true,
+      "packages": [
+        "git",
+        "curl",
+        "gh",
+        "uv",
+        "jq",
+        "onepassword",
+        "op"
+      ],
+      "dotfiles": [
+        "shell",
+        "tmux",
+        "gitignore",
+        "ssh",
+        "powershell"
+      ]
+    },
+    "development": {
+      "desktop": false,
+      "packages": [
+        "git",
+        "curl",
+        "gh",
+        "uv",
+        "jq",
+        "tmux",
+        "zsh",
+        "ripgrep",
+        "fd"
+      ],
+      "dotfiles": [
+        "shell",
+        "tmux",
+        "gitignore",
+        "ssh"
+      ]
+    },
+    "compute": {
+      "desktop": false,
+      "packages": [
+        "git",
+        "curl",
+        "gh",
+        "uv",
+        "jq",
+        "tmux",
+        "btop"
+      ],
+      "dotfiles": [
+        "shell",
+        "tmux",
+        "gitignore",
+        "ssh"
+      ]
+    },
+    "media": {
+      "desktop": false,
+      "packages": [
+        "git",
+        "curl",
+        "gh",
+        "uv",
+        "jq",
+        "ffmpeg",
+        "btop"
+      ],
+      "dotfiles": [
+        "shell",
+        "tmux",
+        "ssh"
+      ]
+    }
+  },
+  "presets": {
+    "default": {
+      "packages": []
+    },
+    "desktop": {
+      "packages": [
+        "firefox",
+        "chatgpt",
+        "claude"
+      ]
+    },
+    "dev": {
+      "packages": [
+        "ruff",
+        "pre-commit",
+        "node",
+        "pnpm",
+        "rust",
+        "cmake",
+        "ninja",
+        "neovim",
+        "cursor",
+        "ghostty",
+        "docker",
+        "oh-my-zsh",
+        "powerlevel10k"
+      ]
+    },
+    "entertainment": {
+      "packages": [
+        "spotify",
+        "steam",
+        "stremio"
+      ]
+    },
+    "cloud-ml": {
+      "packages": [
+        "aws",
+        "azure",
+        "wandb",
+        "marimo",
+        "dstack"
+      ]
+    }
+  },
+  "profiles": {
+    "workstation": {
+      "role": "workstation",
+      "presets": [
+        "default",
+        "desktop",
+        "dev"
+      ]
+    },
+    "dev": {
+      "role": "development",
+      "presets": [
+        "default",
+        "dev"
+      ]
+    },
+    "compute": {
+      "role": "compute",
+      "presets": [
+        "default"
+      ]
+    },
+    "media": {
+      "role": "media",
+      "presets": [
+        "default"
+      ]
+    }
+  },
+  "dotfiles": [
+    {
+      "id": "shell",
+      "source": "dotfiles/dot_zshrc",
+      "target": ".zshrc",
+      "platforms": [
+        "macos",
+        "debian",
+        "fedora"
+      ]
+    },
+    {
+      "id": "tmux",
+      "source": "dotfiles/dot_config/tmux/tmux.conf",
+      "target": ".config/tmux/tmux.conf",
+      "platforms": [
+        "macos",
+        "debian",
+        "fedora"
+      ]
+    },
+    {
+      "id": "gitignore",
+      "source": "dotfiles/dot_config/git/ignore",
+      "target": ".config/git/ignore"
+    },
+    {
+      "id": "ssh",
+      "source": "dotfiles/private_dot_ssh/config",
+      "target": ".ssh/config",
+      "private": true
+    },
+    {
+      "id": "powershell",
+      "source": "dotfiles/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
+      "target": "Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
+      "platforms": [
+        "windows"
+      ]
+    }
+  ]
+}

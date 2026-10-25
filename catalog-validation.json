@@ -1,0 +1,401 @@
+[
+  {
+    "package": "git",
+    "metadata": "https://formulae.brew.sh/api/formula/git.json",
+    "homepage": "https://git-scm.com",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "curl",
+    "metadata": "https://formulae.brew.sh/api/formula/curl.json",
+    "homepage": "https://curl.se",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "gh",
+    "metadata": "https://formulae.brew.sh/api/formula/gh.json",
+    "homepage": "https://cli.github.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "uv",
+    "metadata": "https://formulae.brew.sh/api/formula/uv.json",
+    "homepage": "https://docs.astral.sh/uv/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "chezmoi",
+    "metadata": "https://formulae.brew.sh/api/formula/chezmoi.json",
+    "homepage": "https://chezmoi.io/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "tmux",
+    "metadata": "https://formulae.brew.sh/api/formula/tmux.json",
+    "homepage": "https://tmux.github.io/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "zsh",
+    "metadata": "https://formulae.brew.sh/api/formula/zsh.json",
+    "homepage": "https://www.zsh.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "ripgrep",
+    "metadata": "https://formulae.brew.sh/api/formula/ripgrep.json",
+    "homepage": "https://github.com/BurntSushi/ripgrep",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "fd",
+    "metadata": "https://formulae.brew.sh/api/formula/fd.json",
+    "homepage": "https://github.com/sharkdp/fd",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "jq",
+    "metadata": "https://formulae.brew.sh/api/formula/jq.json",
+    "homepage": "https://jqlang.github.io/jq/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "bat",
+    "metadata": "https://formulae.brew.sh/api/formula/bat.json",
+    "homepage": "https://github.com/sharkdp/bat",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "fzf",
+    "metadata": "https://formulae.brew.sh/api/formula/fzf.json",
+    "homepage": "https://junegunn.github.io/fzf/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "neovim",
+    "metadata": "https://formulae.brew.sh/api/formula/neovim.json",
+    "homepage": "https://neovim.io/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "node",
+    "metadata": "https://formulae.brew.sh/api/formula/node.json",
+    "homepage": "https://nodejs.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "pnpm",
+    "metadata": "https://formulae.brew.sh/api/formula/pnpm.json",
+    "homepage": "https://pnpm.io/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "cmake",
+    "metadata": "https://formulae.brew.sh/api/formula/cmake.json",
+    "homepage": "https://www.cmake.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "ninja",
+    "metadata": "https://formulae.brew.sh/api/formula/ninja.json",
+    "homepage": "https://ninja-build.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "aws",
+    "metadata": "https://formulae.brew.sh/api/formula/awscli.json",
+    "homepage": "https://aws.amazon.com/cli/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "azure",
+    "metadata": "https://formulae.brew.sh/api/cask/azure-cli.json",
+    "homepage": "https://docs.microsoft.com/cli/azure/overview",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "ffmpeg",
+    "metadata": "https://formulae.brew.sh/api/formula/ffmpeg.json",
+    "homepage": "https://ffmpeg.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "btop",
+    "metadata": "https://formulae.brew.sh/api/formula/btop.json",
+    "homepage": "https://github.com/aristocratos/btop",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "tailscale",
+    "metadata": "https://formulae.brew.sh/api/cask/tailscale-app.json",
+    "homepage": "https://tailscale.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "op",
+    "metadata": "https://formulae.brew.sh/api/cask/1password-cli.json",
+    "homepage": "https://developer.1password.com/docs/cli",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "onepassword",
+    "metadata": "https://formulae.brew.sh/api/cask/1password.json",
+    "homepage": "https://1password.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "chrome",
+    "metadata": "https://formulae.brew.sh/api/cask/google-chrome.json",
+    "homepage": "https://www.google.com/chrome/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "firefox",
+    "metadata": "https://formulae.brew.sh/api/cask/firefox.json",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "chromium",
+    "metadata": "https://formulae.brew.sh/api/cask/chromium.json",
+    "homepage": "https://www.chromium.org/Home",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "dia",
+    "metadata": "https://formulae.brew.sh/api/cask/thebrowsercompany-dia.json",
+    "homepage": "https://www.diabrowser.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "arc",
+    "metadata": "https://formulae.brew.sh/api/cask/arc.json",
+    "homepage": "https://arc.net/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "zen",
+    "metadata": "https://formulae.brew.sh/api/cask/zen.json",
+    "homepage": "https://zen-browser.app/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "cursor",
+    "metadata": "https://formulae.brew.sh/api/cask/cursor.json",
+    "homepage": "https://www.cursor.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "vscode",
+    "metadata": "https://formulae.brew.sh/api/cask/visual-studio-code.json",
+    "homepage": "https://code.visualstudio.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "jetbrains",
+    "metadata": "https://formulae.brew.sh/api/cask/jetbrains-toolbox.json",
+    "homepage": "https://www.jetbrains.com/toolbox-app/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "ghostty",
+    "metadata": "https://formulae.brew.sh/api/cask/ghostty.json",
+    "homepage": "https://ghostty.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "warp",
+    "metadata": "https://formulae.brew.sh/api/cask/warp.json",
+    "homepage": "https://www.warp.dev/terminal",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "iterm2",
+    "metadata": "https://formulae.brew.sh/api/cask/iterm2.json",
+    "homepage": "https://iterm2.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "chatgpt",
+    "metadata": "https://formulae.brew.sh/api/cask/chatgpt.json",
+    "homepage": "https://chatgpt.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "claude",
+    "metadata": "https://formulae.brew.sh/api/cask/claude.json",
+    "homepage": "https://claude.com/download",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "ollama",
+    "metadata": "https://formulae.brew.sh/api/cask/ollama-app.json",
+    "homepage": "https://ollama.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "lmstudio",
+    "metadata": "https://formulae.brew.sh/api/cask/lm-studio.json",
+    "homepage": "https://lmstudio.ai/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "docker",
+    "metadata": "https://formulae.brew.sh/api/cask/docker-desktop.json",
+    "homepage": "https://www.docker.com/products/docker-desktop",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "podman",
+    "metadata": "https://formulae.brew.sh/api/cask/podman-desktop.json",
+    "homepage": "https://podman-desktop.io/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "obsidian",
+    "metadata": "https://formulae.brew.sh/api/cask/obsidian.json",
+    "homepage": "https://obsidian.md/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "notion",
+    "metadata": "https://formulae.brew.sh/api/cask/notion.json",
+    "homepage": "https://www.notion.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "slack",
+    "metadata": "https://formulae.brew.sh/api/cask/slack.json",
+    "homepage": "https://slack.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "discord",
+    "metadata": "https://formulae.brew.sh/api/cask/discord.json",
+    "homepage": "https://discord.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "signal",
+    "metadata": "https://formulae.brew.sh/api/cask/signal.json",
+    "homepage": "https://signal.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "spotify",
+    "metadata": "https://formulae.brew.sh/api/cask/spotify.json",
+    "homepage": "https://www.spotify.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "steam",
+    "metadata": "https://formulae.brew.sh/api/cask/steam.json",
+    "homepage": "https://store.steampowered.com/about/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "stremio",
+    "metadata": "https://formulae.brew.sh/api/cask/stremio.json",
+    "homepage": "https://www.strem.io/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "blender",
+    "metadata": "https://formulae.brew.sh/api/cask/blender.json",
+    "homepage": "https://www.blender.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "godot",
+    "metadata": "https://formulae.brew.sh/api/cask/godot.json",
+    "homepage": "https://godotengine.org/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "raycast",
+    "metadata": "https://formulae.brew.sh/api/cask/raycast.json",
+    "homepage": "https://raycast.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "alfred",
+    "metadata": "https://formulae.brew.sh/api/cask/alfred.json",
+    "homepage": "https://www.alfredapp.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "rectangle",
+    "metadata": "https://formulae.brew.sh/api/cask/rectangle-pro.json",
+    "homepage": "https://rectangleapp.com/pro",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "setapp",
+    "metadata": "https://formulae.brew.sh/api/cask/setapp.json",
+    "homepage": "https://setapp.com/",
+    "validated": true,
+    "error": null
+  },
+  {
+    "package": "utm",
+    "metadata": "https://formulae.brew.sh/api/cask/utm.json",
+    "homepage": "https://mac.getutm.app/",
+    "validated": true,
+    "error": null
+  }
+]
