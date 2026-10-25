@@ -31,7 +31,7 @@ jobs:
         env:
           RELEASE_VERSION: ${{ github.ref_name }}
         run: python3 scripts/bundle.py --version "$RELEASE_VERSION"
-      - uses: actions/attest-build-provenance@v2
+      - uses: actions/attest-build-provenance@v4
         with:
           subject-path: profiles/dist/outfit-profiles_*.tar.gz
       - name: Create draft
