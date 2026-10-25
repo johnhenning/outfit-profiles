@@ -2036,17 +2036,9 @@
         "curl",
         "gh",
         "uv",
-        "jq",
-        "onepassword",
-        "op"
+        "jq"
       ],
-      "dotfiles": [
-        "shell",
-        "tmux",
-        "gitignore",
-        "ssh",
-        "powershell"
-      ]
+      "dotfiles": []
     },
     "development": {
       "desktop": false,
@@ -2057,16 +2049,10 @@
         "uv",
         "jq",
         "tmux",
-        "zsh",
         "ripgrep",
         "fd"
       ],
-      "dotfiles": [
-        "shell",
-        "tmux",
-        "gitignore",
-        "ssh"
-      ]
+      "dotfiles": []
     },
     "compute": {
       "desktop": false,
@@ -2079,12 +2065,7 @@
         "tmux",
         "btop"
       ],
-      "dotfiles": [
-        "shell",
-        "tmux",
-        "gitignore",
-        "ssh"
-      ]
+      "dotfiles": []
     },
     "media": {
       "desktop": false,
@@ -2097,11 +2078,7 @@
         "ffmpeg",
         "btop"
       ],
-      "dotfiles": [
-        "shell",
-        "tmux",
-        "ssh"
-      ]
+      "dotfiles": []
     }
   },
   "presets": {
@@ -2110,9 +2087,7 @@
     },
     "desktop": {
       "packages": [
-        "firefox",
-        "chatgpt",
-        "claude"
+        "chrome"
       ]
     },
     "dev": {
@@ -2121,22 +2096,13 @@
         "pre-commit",
         "node",
         "pnpm",
-        "rust",
-        "cmake",
-        "ninja",
-        "neovim",
-        "cursor",
-        "ghostty",
-        "docker",
-        "oh-my-zsh",
-        "powerlevel10k"
+        "vscode"
       ]
     },
     "entertainment": {
       "packages": [
         "spotify",
-        "steam",
-        "stremio"
+        "steam"
       ]
     },
     "cloud-ml": {
@@ -2146,6 +2112,49 @@
         "wandb",
         "marimo",
         "dstack"
+      ]
+    },
+    "ai-assistants": {
+      "packages": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    "build": {
+      "packages": [
+        "cmake",
+        "ninja",
+        "rust"
+      ]
+    },
+    "containers": {
+      "packages": [
+        "docker"
+      ]
+    },
+    "shell-config": {
+      "dotfiles": [
+        "shell"
+      ]
+    },
+    "tmux-config": {
+      "dotfiles": [
+        "tmux"
+      ]
+    },
+    "git-config": {
+      "dotfiles": [
+        "gitignore"
+      ]
+    },
+    "ssh-config": {
+      "dotfiles": [
+        "ssh"
+      ]
+    },
+    "powershell-config": {
+      "dotfiles": [
+        "powershell"
       ]
     }
   },

@@ -22,7 +22,7 @@ jobs:
       - working-directory: outfit
         shell: bash
         run: |
-          for target in macos-arm64 debian-amd64 fedora-amd64 windows-amd64; do
+          for target in macos-arm64 macos-amd64 debian-amd64 debian-arm64 fedora-amd64 fedora-arm64 windows-amd64 windows-arm64; do
             for profile in workstation dev compute media; do
               go run ./cmd/outfit plan --source ../profiles --profile "$profile" --target "$target" --json > /dev/null
             done
