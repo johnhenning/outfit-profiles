@@ -12,10 +12,10 @@ jobs:
       id-token: write
       attestations: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: profiles
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: johnhenning/outfit
           ref: main
